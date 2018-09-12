@@ -73,7 +73,7 @@
                     error = 'Please enter valid location. You can use hints if you need.';
 
                 if (this.inputValue && this.inputValue.length > 3) {
-                    axios.post('/location/add/', params)
+                    axios.post('/location/add', params)
                         .then(response => {
                             if (response.data.error) {
                                 this.errorMessage = error;
