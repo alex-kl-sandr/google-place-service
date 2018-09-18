@@ -2,6 +2,6 @@
 
 return [
     'places' => [
-        'key' => 'AIzaSyBLJ9zc56EuZOc-3oeNi2dmiyro0pU5V2I'
+        'key' => env('GOOGLE_PLACE_API_KEY')
     ]
 ];
